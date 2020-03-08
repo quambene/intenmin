@@ -4,8 +4,9 @@ Concise tutorials and summaries for developers in less than 2380 words.
 
 #### Contents
 
-- [Python](#python)
-- [Typescript](typescript.html)
+[Python](#python)
+
+[Typescript](typescript.md)
 
 ## Python
 
