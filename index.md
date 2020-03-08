@@ -5,6 +5,7 @@ Concise tutorials and summaries for developers in less than 2380 words.
 #### Contents
 
 [Python](#python)
+[Typescript](#typescript)
 
 ## Python
 
@@ -32,6 +33,13 @@ x -= 1 # Decrement
 ### Data types
 
 ```python
+# Basic types
+x: int
+x: float
+x: complex
+x: str
+x: bool
+
 # List
 x = ["item1", "item2", "item3"]
 x: List[str] = ["item1", "item2", "item3"] # typed
