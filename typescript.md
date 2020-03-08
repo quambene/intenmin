@@ -1,13 +1,13 @@
-## Typescript
+## Typescript in under 10 minutes
 
 #### Contents
 
-[Print](#print)
-[Variables](#variables)
-[Data types](#dataTypes)
-[Control flow](#controlFlow)
-[Functions](#functions)
-[Classes](#classes)
+- [Print](#print)
+- [Variables](#variables)
+- [Data types](#dataTypes)
+- [Control flow](#controlFlow)
+- [Functions](#functions)
+- [Classes](#classes)
 
 ### Print
 
