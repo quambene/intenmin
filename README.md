@@ -12,8 +12,10 @@ Concise tutorials and summaries for developers in less than 2380 words.
 
 ```python
 name = "world"
+print("Hello", name)
 print(f"Hello, {name}!")
 print("This %(verb)s a %(noun)s." % {"noun": "test", "verb": "is"})
+print("integer: %d float: %f" % (my_int, my_float))
 ```
 
 ### Variables
@@ -80,21 +82,27 @@ def my_function(arg1: int, arg2: int) -> Tuple[int, int]:
 
 # Lambda function
 add_one = lambda x: x + 1
+
+# Decorator
+@my_decorator
+def my_function():
+    return
 ```
 
 ### Classes
 
 ```python
 class MyClass:
-    instance_var = 100
+    my_class_var = 100
 
     def __init__(self):
-        self.my_variable = 3
+        self.my_instance_var = 3
 
-    def my_function(self, arg1, arg2):
-        return self.my_variable
+    def my_function(self):
+        return self.my_instance_var
 
 # Instantiation
-class_instance = MyClass()
-class_instance.my_function(1, 2)
+my_class_instance = MyClass()
+my_class_instance.my_function()
+my_class_instance.my_class_var
 ```
