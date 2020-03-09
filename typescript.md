@@ -1,4 +1,4 @@
-# XYZ in under 10 minutes
+# XYZ in 10 minutes
 
 #### Contents
 
