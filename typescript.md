@@ -60,7 +60,13 @@ let green: Color = Color.Green
 while (condition) { }
 
 // if-else
-if (boolean_expression) {} else {}
+if (a < b) {
+    // statement
+} else if (a == b) {
+    // statement
+} else {
+    // statement
+}
 
 // switch
 switch (variable_expression) {
