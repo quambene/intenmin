@@ -41,9 +41,9 @@ let x: null;
 let x: undefined;
 
 // Array
-let arr: string[];
-let arr: Array<string>;
-arr[0]
+let arr: number[] = [1, 2, 3];
+let arr: Array<number> = [1, 2, 3];
+let first_arr = arr[0]
 
 // Tuple
 let tup: [string, number] = ['hello', 4]
