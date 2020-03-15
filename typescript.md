@@ -4,6 +4,7 @@
 
 - [Python](index.md)
 - [Typescript](#typescript)
+- [Rust](rust.md)
 
 ## Typescript
 
@@ -57,7 +58,9 @@ let green: Color = Color.Green
 
 ```typescript
 // while loop
-while (condition) { }
+while (i < 3) {
+    // statement
+ }
 
 // if-else
 if (a < b) {

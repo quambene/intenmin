@@ -4,6 +4,7 @@
 
 - [Python](#python)
 - [Typescript](typescript.md)
+- [Rust](rust.md)
 
 ## Python
 
