@@ -27,7 +27,8 @@ let _x = 4; // compiler won't warn about variable being unused
 let x = x + 1; // shadowing
 let mut x = 5; // mutable
 let r#fn = "name"; // raw identifier
-&'a i32; // reference with an explicit lifetime
+let x: &'a i32; // reference with an explicit lifetime
+let x: &'a mut i32; // mutable reference with an explicit lifetime
 const MYCONST: f32 = 3.14; // immutable value
 static MYSTATIC: &str = "Rust"; // mutable variable with static lifetime
 ```
