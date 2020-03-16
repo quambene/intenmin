@@ -141,7 +141,7 @@ class Car extends Vehicle {
     // ...
 }
 
-// Polymorphism
+// Polymorphism (method overriding)
 class Vehicle {
     public void myMethod() {
         // ...
