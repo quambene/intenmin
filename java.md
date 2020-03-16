@@ -61,7 +61,6 @@ HashMap<String, String> hashmap = new HashMap<String, String>();
 hashmap.put("key1", "value1");
 hashmap.get("key1");
 hashmap.remove("key1");
-
 ```
 
 ### Control flow
@@ -79,7 +78,6 @@ while (i < 5) {
     i++;
 }
 
-
 // if-else
 if (a < b) {
     // statement
@@ -88,10 +86,10 @@ if (a < b) {
 } else {
     // statement
 }
-
 ```
 
 ### Functions
+
 ```java
 // Method
 public static int myMethod(int x) {
