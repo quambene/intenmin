@@ -95,8 +95,10 @@ let user = User {
     username: String::from("someusername"),
 }
 
-// Box
-Box<T> // heap allocation
+// heap allocation
+Box<T>
+Rc<T> // single-threaded reference-counting pointer (reference counted)
+Arc<T> // thread-safe reference-counting pointer (atomically reference counted)
 ```
 
 ### Control flow
