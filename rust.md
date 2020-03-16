@@ -5,6 +5,7 @@
 - [Python](index.md)
 - [Typescript](typescript.md)
 - [Rust](#rust)
+- [Java](java.md)
 
 ## Rust
 
@@ -31,7 +32,7 @@ let x: &'a i32; // reference with an explicit lifetime
 let x: &'a mut i32; // mutable reference with an explicit lifetime
 const MYCONST: f32 = 3.14; // immutable value
 static MYSTATIC: &str = "Rust"; // mutable variable with static lifetime
-let r#fn = "name"; // raw identifier
+let r#fn = "name"; // raw identifier for reserved keywords
 ```
 
 ### Data types
@@ -231,6 +232,20 @@ fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
 }
 ```
 
+### Macros
+
+```rust
+use my_macro::MyMacro;
+use my_macro_derive::MyMacro;
+
+#[derive(MyMacro)]
+struct MyStruct;
+
+fn main() {
+    MyStruct::my_macro();
+}
+```
+
 ### Error handling
 
 ```rust
@@ -248,7 +263,6 @@ fn read_username_from_file() -> Result<String, io::Error> {
 # A Cargo feature that lets you build, test, and share crates
 cargo new my-project
 ```
-
 
 ### Crates
 
