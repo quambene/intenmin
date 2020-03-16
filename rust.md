@@ -96,7 +96,7 @@ let user = User {
 }
 
 // heap allocation
-Box<T>
+Box<T> // pointer type for heap allocation
 Rc<T> // single-threaded reference-counting pointer (reference counted)
 Arc<T> // thread-safe reference-counting pointer (atomically reference counted)
 ```
