@@ -7,6 +7,8 @@
 - [Rust](rust.md)
 - [Java](#java)
 
+## Java
+
 ### Print
 
 ```java
