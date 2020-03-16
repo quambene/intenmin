@@ -5,6 +5,7 @@
 - [Python](index.md)
 - [Typescript](#typescript)
 - [Rust](rust.md)
+- [Java](java.md)
 
 ## Typescript
 
@@ -82,7 +83,7 @@ switch (variable_expression) {
         break;
     }
     default: {
-        //statement 
+        //statement
         break;
     }
 }
