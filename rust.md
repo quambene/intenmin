@@ -70,7 +70,6 @@ vec.push(5);
 // Hash map
 let mut my_hashmap = HashMap::new();
 my_hashmap.insert(String::from("Key1"), String::from("Value1"));
-my_hashmap.insert(String::from("Key2"), String::from("Value2"));
 
 // Enum (similar to algebraic data types in functional languages)
 enum Option<T> {
