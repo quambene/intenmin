@@ -6,6 +6,7 @@
 - [Typescript](typescript.md)
 - [Rust](rust.md)
 - [Java](#java)
+- [Go](go.md)
 
 ## Java
 

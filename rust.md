@@ -6,6 +6,7 @@
 - [Typescript](typescript.md)
 - [Rust](#rust)
 - [Java](java.md)
+- [Go](go.md)
 
 ## Rust
 
@@ -65,7 +66,7 @@ let vec: Vec<i32> = Vec::new();
 let vec = vec![1, 2, 3];
 let first_vec = vec.get(0);
 let first_vec = &vec[0];
-vec.push(5);
+vec.push(4);
 
 // Hash map
 let mut my_hashmap = HashMap::new();
@@ -164,7 +165,7 @@ impl Rectangle {
     }
 }
 
-// Closures (lambda expressions)
+// Closure (lambda expression)
 let my_closure = |i| i + 1;
 let my_closure = |i: i32| -> i32 { i + 1 }; // typed
 ```
