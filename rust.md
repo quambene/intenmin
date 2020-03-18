@@ -152,16 +152,16 @@ fn my_function(x: i32) -> i32 {
 }
 
 // Method (similar to classes in OOP)
-impl Rectangle { // implement struct
-    fn area(&self) -> u32 {
-        self.width * self.height
+impl MyStruct { // implement struct
+    fn my_function(&self) -> i32 {
+        // ...
     }
 }
 
 // Associated function
-impl Rectangle {
-    fn square(size: u32) -> Rectangle {
-        Rectangle { width: size, height: size }
+impl MyStruct {
+    fn my_function(x: i32) -> i32 {
+        // ...
     }
 }
 
@@ -177,9 +177,9 @@ fn my_generic<T>(list: &[T]) -> T {
     // ...
 }
 
-impl<T> Point<T> {
-    fn x(&self) -> &T {
-        &self.x
+impl<T> MyStruct<T> {
+    fn my_function(&self) -> &T {
+        // ...
     }
 }
 ```
