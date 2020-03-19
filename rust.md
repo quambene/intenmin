@@ -139,7 +139,7 @@ if let Some(i) = x {
 
 // while let
 while let Some(i) = x  {
-    println!("Matched {:?}", i)
+    println!("Matched {}", i)
 }
 ```
 
@@ -173,11 +173,11 @@ let my_closure = |i: i32| -> i32 { i + 1 }; // typed
 ### Generics (parametric polymorphism)
 
 ```rust
-fn my_generic<T>(list: &[T]) -> T {
+fn my_generic_function<T>(list: &[T]) -> T {
     // ...
 }
 
-impl<T> MyStruct<T> {
+impl<T> MyGenericStruct<T> {
     fn my_function(&self) -> &T {
         // ...
     }
