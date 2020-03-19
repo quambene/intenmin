@@ -259,21 +259,6 @@ fn read_username_from_file() -> Result<String, io::Error> {
 }
 ```
 
-### Packages
-
-```bash
-# A Cargo feature that lets you build, test, and share crates
-cargo new my-project
-```
-
-### Crates
-
-```bash
-# A tree of modules that produces a library or executable
-cargo new --lib my-lib # create library crate
-cargo new --bin my-bin # create binary crate
-```
-
 ### Modules
 
 ```rust
@@ -301,6 +286,21 @@ use crate::my_crate::my_function(); // referring to an item in the module tree
 // relative path
 self::my_function(); // current module scope
 super::my_function(); // parent scope
+```
+
+### Crates
+
+```bash
+# A tree of modules that produces a library or executable
+cargo new --lib my-lib # create library crate
+cargo new --bin my-bin # create binary crate
+```
+
+### Packages
+
+```bash
+# A Cargo feature that lets you build, test, and share crates
+cargo new my-project
 ```
 
 ### External packages (Cargo.toml)
