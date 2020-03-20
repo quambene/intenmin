@@ -124,21 +124,20 @@ if a < b {
 };
 
 // pattern matching
-let x: Option<i32>;
-match x {
+match my_option {
     Some(i) => Some(i + 1),
     None => None,
 }
 
 // if let
-if let Some(i) = x {
+if let Some(i) = my_option {
     println!("Matched {}", i)
 } else {
     println!("Didn't match")
 }
 
 // while let
-while let Some(i) = x  {
+while let Some(i) = my_option  {
     println!("Matched {}", i)
 }
 ```
