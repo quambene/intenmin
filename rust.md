@@ -245,6 +245,9 @@ struct MyStruct;
 fn main() {
     MyStruct::my_macro();
 }
+
+// other macros
+unimplemented!() // satisfies the type checker without providing an implementation
 ```
 
 ### Error handling
